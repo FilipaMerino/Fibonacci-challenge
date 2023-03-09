@@ -1,0 +1,79 @@
+body {
+  background-color: #EDDBC7;
+}
+
+h1{
+  color: #2B3A55;
+  font-family: 'Archivo', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+h2{
+  font-family: 'Archivo', sans-serif;
+  color: #A7727D;
+  font-size: 1.5rem;
+}
+
+
+.containerOfAll{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.fibonacciNumber{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#inputNumber{
+
+border:none;
+border-radius: 5px;
+-webkit-box-shadow: -8px 0px 35px 0px rgba(0,0,0,0.24);
+-moz-box-shadow: -8px 0px 35px 0px rgba(0,0,0,0.24);
+box-shadow: -8px 0px 35px 0px rgba(0,0,0,0.24);
+height: 20px;
+}
+
+/* Take out arros from inputNumber box */
+#inputNumber::-webkit-inner-spin-button, #inputNumber::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* end */
+
+
+#inputNumber:focus, input:focus{
+  outline: none;
+}
+
+
+.fa-circle-play{
+    font-size: 25px;
+    color: #2b3a55;
+}
+
+#generateButton{
+  border: none;
+  background-color: transparent;
+}
+
+.inputBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#output{
+display: flex;
+justify-content: center;
+}
